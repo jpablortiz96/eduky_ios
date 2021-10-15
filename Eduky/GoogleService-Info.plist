@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1079716895580-1kgljbtisp3nf0rgo4puokco3ve4a16g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1079716895580-1kgljbtisp3nf0rgo4puokco3ve4a16g</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1079716895580-bmd4btiupm2pc42qm7k4pos5qnk46s2n.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFn65IfbRxOu8vnfsDj0fdeHZdd_giSLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1079716895580</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>juanpabloapp.Eduky</string>
+	<key>PROJECT_ID</key>
+	<string>eduky-f2fd4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eduky-f2fd4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1079716895580:ios:8e0b6127b6c4f623</string>
+	<key>DATABASE_URL</key>
+	<string>https://eduky-f2fd4.firebaseio.com</string>
+</dict>
+</plist>
