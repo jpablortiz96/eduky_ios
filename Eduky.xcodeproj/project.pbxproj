@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E9DC08DB9694A493B90848 /* Pods_EdukyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F900A32F6B2305C3B82D219 /* Pods_EdukyTests.framework */; };
+		3D414FE8CB0393506C6F2316 /* Pods_EdukyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AC1936C2D81ED7C91EE5E /* Pods_EdukyUITests.framework */; };
+		4B0BC22F22E39F660064297A /* ViewControllerPdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BC22E22E39F660064297A /* ViewControllerPdf.swift */; };
+		4B0BC23D22E4308C0064297A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BC23C22E4308C0064297A /* TabBarViewController.swift */; };
+		4B0BC24622E4375F0064297A /* outline_book_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC23E22E4375F0064297A /* outline_book_black_18dp.png */; };
+		4B0BC24722E4375F0064297A /* twotone_book_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC23F22E4375F0064297A /* twotone_book_black_18dp.png */; };
+		4B0BC24822E4375F0064297A /* twotone_video_library_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24022E4375F0064297A /* twotone_video_library_black_18dp.png */; };
+		4B0BC24922E4375F0064297A /* outline_video_library_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24122E4375F0064297A /* outline_video_library_black_18dp.png */; };
+		4B0BC24A22E4375F0064297A /* twotone_headset_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24222E4375F0064297A /* twotone_headset_black_18dp.png */; };
+		4B0BC24B22E4375F0064297A /* outline_headset_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24322E4375F0064297A /* outline_headset_black_18dp.png */; };
+		4B0BC24C22E4375F0064297A /* outline_cast_connected_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24422E4375F0064297A /* outline_cast_connected_black_18dp.png */; };
+		4B0BC24D22E4375F0064297A /* outline_cast_for_education_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BC24522E4375F0064297A /* outline_cast_for_education_black_18dp.png */; };
+		4B0C3A0522BF0DBD00FBC7E6 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C3A0422BF0DBD00FBC7E6 /* ViewControllerTableViewCell.swift */; };
+		4B0D728522D2AC42005AB934 /* TableViewControllerVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D728422D2AC42005AB934 /* TableViewControllerVideos.swift */; };
+		4B0D728722D2AE2F005AB934 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D728622D2AE2F005AB934 /* Video.swift */; };
+		4B0D91AD22DBF35A00A035BC /* CollectionViewCellEbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D91AC22DBF35A00A035BC /* CollectionViewCellEbook.swift */; };
+		4B0D91B122DBF93300A035BC /* ViewControllerEbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D91B022DBF93300A035BC /* ViewControllerEbook.swift */; };
+		4B0D91B522DBFA1000A035BC /* Ebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D91B422DBFA1000A035BC /* Ebook.swift */; };
+		4B0E1C4A22B5E1BE00B7994D /* Educador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0E1C4922B5E1BE00B7994D /* Educador.swift */; };
+		4B0F69C322C97DB4002C11E4 /* baseline_work_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69C222C97DB4002C11E4 /* baseline_work_black_18dp.png */; };
+		4B0F69C522C97DD5002C11E4 /* baseline_view_headline_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69C422C97DD5002C11E4 /* baseline_view_headline_black_18dp.png */; };
+		4B0F69C722C97DEC002C11E4 /* baseline_import_contacts_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69C622C97DEC002C11E4 /* baseline_import_contacts_black_18dp.png */; };
+		4B0F69C922C98BDC002C11E4 /* baseline_email_white_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69C822C98BDC002C11E4 /* baseline_email_white_18dp.png */; };
+		4B0F69CB22C98BE5002C11E4 /* baseline_phone_white_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69CA22C98BE5002C11E4 /* baseline_phone_white_18dp.png */; };
+		4B0F69CD22C98BEF002C11E4 /* baseline_location_on_white_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F69CC22C98BEF002C11E4 /* baseline_location_on_white_18dp.png */; };
+		4B0F69D122C992E4002C11E4 /* ViewControllerPerfilEducador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F69D022C992E4002C11E4 /* ViewControllerPerfilEducador.swift */; };
+		4B0FF3F922C04D4600AE9C8B /* baseline_card_travel_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FF3F822C04D4600AE9C8B /* baseline_card_travel_black_18dp.png */; };
+		4B0FF3FB22C04D6000AE9C8B /* baseline_room_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FF3FA22C04D6000AE9C8B /* baseline_room_black_18dp.png */; };
+		4B0FF3FD22C04D6E00AE9C8B /* baseline_web_black_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FF3FC22C04D6E00AE9C8B /* baseline_web_black_18dp.png */; };
+		4B103AB7229AFBB9006B9BF1 /* instagram_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B103AB6229AFBB9006B9BF1 /* instagram_logo.png */; };
+		4B103AB9229AFBC7006B9BF1 /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B103AB8229AFBC7006B9BF1 /* facebook_logo.png */; };
+		4B158BDD2299C87900378054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B158BDC2299C87900378054 /* AppDelegate.swift */; };
+		4B158BDF2299C87900378054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B158BDE2299C87900378054 /* ViewController.swift */; };
+		4B158BE22299C87900378054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B158BE02299C87900378054 /* Main.storyboard */; };
+		4B158BE52299C87900378054 /* Eduky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B158BE32299C87900378054 /* Eduky.xcdatamodeld */; };
+		4B158BE72299C87900378054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B158BE62299C87900378054 /* Assets.xcassets */; };
+		4B158BEA2299C87900378054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B158BE82299C87900378054 /* LaunchScreen.storyboard */; };
+		4B158BF52299C87900378054 /* EdukyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B158BF42299C87900378054 /* EdukyTests.swift */; };
+		4B158C002299C87900378054 /* EdukyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B158BFF2299C87900378054 /* EdukyUITests.swift */; };
+		4B158C0E2299C9E300378054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B158C0D2299C9E300378054 /* GoogleService-Info.plist */; };
+		4B158C102299D0C700378054 /* eduky_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B158C0F2299D0C700378054 /* eduky_logo.png */; };
+		4B6809FC22DAE7C3008337BF /* TableViewControllerAudioLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6809FB22DAE7C3008337BF /* TableViewControllerAudioLibro.swift */; };
+		4B6809FE22DAE980008337BF /* AudioLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6809FD22DAE980008337BF /* AudioLibro.swift */; };
+		4BD963D022A34C880031DCFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD963CF22A34C880031DCFB /* TableViewController.swift */; };
+		9FD01F9FEB5513A3003627EA /* Pods_Eduky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBDDD921919EFEFA5FA914C /* Pods_Eduky.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B158BF12299C87900378054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B158BD12299C87800378054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B158BD82299C87800378054;
+			remoteInfo = Eduky;
+		};
+		4B158BFC2299C87900378054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B158BD12299C87800378054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B158BD82299C87800378054;
+			remoteInfo = Eduky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13C8EF5B6DEED57D5B80DD0F /* Pods-EdukyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdukyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdukyUITests/Pods-EdukyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		210F480F0ECE190535365DA6 /* Pods-EdukyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdukyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdukyTests/Pods-EdukyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		395ED024D5F489488B2EE707 /* Pods-Eduky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eduky.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eduky/Pods-Eduky.release.xcconfig"; sourceTree = "<group>"; };
+		432265DFA96F980A14899AAE /* Pods-Eduky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eduky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eduky/Pods-Eduky.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0BC22E22E39F660064297A /* ViewControllerPdf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPdf.swift; sourceTree = "<group>"; };
+		4B0BC23C22E4308C0064297A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4B0BC23E22E4375F0064297A /* outline_book_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_book_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC23F22E4375F0064297A /* twotone_book_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twotone_book_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24022E4375F0064297A /* twotone_video_library_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twotone_video_library_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24122E4375F0064297A /* outline_video_library_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_video_library_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24222E4375F0064297A /* twotone_headset_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twotone_headset_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24322E4375F0064297A /* outline_headset_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_headset_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24422E4375F0064297A /* outline_cast_connected_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_cast_connected_black_18dp.png; sourceTree = "<group>"; };
+		4B0BC24522E4375F0064297A /* outline_cast_for_education_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_cast_for_education_black_18dp.png; sourceTree = "<group>"; };
+		4B0C3A0422BF0DBD00FBC7E6 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		4B0D728422D2AC42005AB934 /* TableViewControllerVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerVideos.swift; sourceTree = "<group>"; };
+		4B0D728622D2AE2F005AB934 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4B0D91AC22DBF35A00A035BC /* CollectionViewCellEbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellEbook.swift; sourceTree = "<group>"; };
+		4B0D91B022DBF93300A035BC /* ViewControllerEbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEbook.swift; sourceTree = "<group>"; };
+		4B0D91B422DBFA1000A035BC /* Ebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ebook.swift; sourceTree = "<group>"; };
+		4B0E1C4922B5E1BE00B7994D /* Educador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Educador.swift; sourceTree = "<group>"; };
+		4B0F69C222C97DB4002C11E4 /* baseline_work_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_work_black_18dp.png; sourceTree = "<group>"; };
+		4B0F69C422C97DD5002C11E4 /* baseline_view_headline_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_view_headline_black_18dp.png; sourceTree = "<group>"; };
+		4B0F69C622C97DEC002C11E4 /* baseline_import_contacts_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_import_contacts_black_18dp.png; sourceTree = "<group>"; };
+		4B0F69C822C98BDC002C11E4 /* baseline_email_white_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_email_white_18dp.png; sourceTree = "<group>"; };
+		4B0F69CA22C98BE5002C11E4 /* baseline_phone_white_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_phone_white_18dp.png; sourceTree = "<group>"; };
+		4B0F69CC22C98BEF002C11E4 /* baseline_location_on_white_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_location_on_white_18dp.png; sourceTree = "<group>"; };
+		4B0F69D022C992E4002C11E4 /* ViewControllerPerfilEducador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPerfilEducador.swift; sourceTree = "<group>"; };
+		4B0FF3F822C04D4600AE9C8B /* baseline_card_travel_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_card_travel_black_18dp.png; sourceTree = "<group>"; };
+		4B0FF3FA22C04D6000AE9C8B /* baseline_room_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_room_black_18dp.png; sourceTree = "<group>"; };
+		4B0FF3FC22C04D6E00AE9C8B /* baseline_web_black_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_web_black_18dp.png; sourceTree = "<group>"; };
+		4B103AB6229AFBB9006B9BF1 /* instagram_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram_logo.png; sourceTree = "<group>"; };
+		4B103AB8229AFBC7006B9BF1 /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_logo.png; sourceTree = "<group>"; };
+		4B158BD92299C87900378054 /* Eduky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eduky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B158BDC2299C87900378054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B158BDE2299C87900378054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B158BE12299C87900378054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B158BE42299C87900378054 /* Eduky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eduky.xcdatamodel; sourceTree = "<group>"; };
+		4B158BE62299C87900378054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B158BE92299C87900378054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B158BEB2299C87900378054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B158BF02299C87900378054 /* EdukyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdukyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B158BF42299C87900378054 /* EdukyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdukyTests.swift; sourceTree = "<group>"; };
+		4B158BF62299C87900378054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B158BFB2299C87900378054 /* EdukyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdukyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B158BFF2299C87900378054 /* EdukyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdukyUITests.swift; sourceTree = "<group>"; };
+		4B158C012299C87900378054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B158C0D2299C9E300378054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B158C0F2299D0C700378054 /* eduky_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eduky_logo.png; sourceTree = "<group>"; };
+		4B6809FB22DAE7C3008337BF /* TableViewControllerAudioLibro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerAudioLibro.swift; sourceTree = "<group>"; };
+		4B6809FD22DAE980008337BF /* AudioLibro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLibro.swift; sourceTree = "<group>"; };
+		4BD963CF22A34C880031DCFB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4DBDDD921919EFEFA5FA914C /* Pods_Eduky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eduky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51707D0F9B44E61400D5FB2A /* Pods-EdukyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdukyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdukyUITests/Pods-EdukyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F900A32F6B2305C3B82D219 /* Pods_EdukyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdukyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A09000943D7E9EAF7F2070 /* Pods-EdukyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdukyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdukyTests/Pods-EdukyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA8AC1936C2D81ED7C91EE5E /* Pods_EdukyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdukyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B158BD62299C87800378054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD01F9FEB5513A3003627EA /* Pods_Eduky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BED2299C87900378054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E9DC08DB9694A493B90848 /* Pods_EdukyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BF82299C87900378054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D414FE8CB0393506C6F2316 /* Pods_EdukyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BDC1EE0AA85DA770DEB202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				432265DFA96F980A14899AAE /* Pods-Eduky.debug.xcconfig */,
+				395ED024D5F489488B2EE707 /* Pods-Eduky.release.xcconfig */,
+				210F480F0ECE190535365DA6 /* Pods-EdukyTests.debug.xcconfig */,
+				88A09000943D7E9EAF7F2070 /* Pods-EdukyTests.release.xcconfig */,
+				13C8EF5B6DEED57D5B80DD0F /* Pods-EdukyUITests.debug.xcconfig */,
+				51707D0F9B44E61400D5FB2A /* Pods-EdukyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B158BD02299C87800378054 = {
+			isa = PBXGroup;
+			children = (
+				4B158BDB2299C87900378054 /* Eduky */,
+				4B158BF32299C87900378054 /* EdukyTests */,
+				4B158BFE2299C87900378054 /* EdukyUITests */,
+				4B158BDA2299C87900378054 /* Products */,
+				29BDC1EE0AA85DA770DEB202 /* Pods */,
+				FC7E3EA66C05008E3EA59059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B158BDA2299C87900378054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B158BD92299C87900378054 /* Eduky.app */,
+				4B158BF02299C87900378054 /* EdukyTests.xctest */,
+				4B158BFB2299C87900378054 /* EdukyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B158BDB2299C87900378054 /* Eduky */ = {
+			isa = PBXGroup;
+			children = (
+				4B158BDC2299C87900378054 /* AppDelegate.swift */,
+				4B158BDE2299C87900378054 /* ViewController.swift */,
+				4B158BE02299C87900378054 /* Main.storyboard */,
+				4B158BE62299C87900378054 /* Assets.xcassets */,
+				4B158BE82299C87900378054 /* LaunchScreen.storyboard */,
+				4B158BEB2299C87900378054 /* Info.plist */,
+				4B158C0D2299C9E300378054 /* GoogleService-Info.plist */,
+				4B158BE32299C87900378054 /* Eduky.xcdatamodeld */,
+				4B0BC23C22E4308C0064297A /* TabBarViewController.swift */,
+				4BD963CF22A34C880031DCFB /* TableViewController.swift */,
+				4B0D728422D2AC42005AB934 /* TableViewControllerVideos.swift */,
+				4B6809FB22DAE7C3008337BF /* TableViewControllerAudioLibro.swift */,
+				4B0D91B022DBF93300A035BC /* ViewControllerEbook.swift */,
+				4B0D91AC22DBF35A00A035BC /* CollectionViewCellEbook.swift */,
+				4B0C3A0422BF0DBD00FBC7E6 /* ViewControllerTableViewCell.swift */,
+				4B0F69D022C992E4002C11E4 /* ViewControllerPerfilEducador.swift */,
+				4B0BC22E22E39F660064297A /* ViewControllerPdf.swift */,
+				4B0E1C4922B5E1BE00B7994D /* Educador.swift */,
+				4B0D728622D2AE2F005AB934 /* Video.swift */,
+				4B6809FD22DAE980008337BF /* AudioLibro.swift */,
+				4B0D91B422DBFA1000A035BC /* Ebook.swift */,
+				4B158C112299D10000378054 /* Imagen */,
+			);
+			path = Eduky;
+			sourceTree = "<group>";
+		};
+		4B158BF32299C87900378054 /* EdukyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B158BF42299C87900378054 /* EdukyTests.swift */,
+				4B158BF62299C87900378054 /* Info.plist */,
+			);
+			path = EdukyTests;
+			sourceTree = "<group>";
+		};
+		4B158BFE2299C87900378054 /* EdukyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B158BFF2299C87900378054 /* EdukyUITests.swift */,
+				4B158C012299C87900378054 /* Info.plist */,
+			);
+			path = EdukyUITests;
+			sourceTree = "<group>";
+		};
+		4B158C112299D10000378054 /* Imagen */ = {
+			isa = PBXGroup;
+			children = (
+				4B0BC23E22E4375F0064297A /* outline_book_black_18dp.png */,
+				4B0BC23F22E4375F0064297A /* twotone_book_black_18dp.png */,
+				4B0BC24022E4375F0064297A /* twotone_video_library_black_18dp.png */,
+				4B0BC24122E4375F0064297A /* outline_video_library_black_18dp.png */,
+				4B0BC24222E4375F0064297A /* twotone_headset_black_18dp.png */,
+				4B0BC24322E4375F0064297A /* outline_headset_black_18dp.png */,
+				4B0BC24422E4375F0064297A /* outline_cast_connected_black_18dp.png */,
+				4B0BC24522E4375F0064297A /* outline_cast_for_education_black_18dp.png */,
+				4B0F69CC22C98BEF002C11E4 /* baseline_location_on_white_18dp.png */,
+				4B0F69CA22C98BE5002C11E4 /* baseline_phone_white_18dp.png */,
+				4B0F69C822C98BDC002C11E4 /* baseline_email_white_18dp.png */,
+				4B0F69C622C97DEC002C11E4 /* baseline_import_contacts_black_18dp.png */,
+				4B0F69C422C97DD5002C11E4 /* baseline_view_headline_black_18dp.png */,
+				4B0F69C222C97DB4002C11E4 /* baseline_work_black_18dp.png */,
+				4B0FF3F822C04D4600AE9C8B /* baseline_card_travel_black_18dp.png */,
+				4B0FF3FA22C04D6000AE9C8B /* baseline_room_black_18dp.png */,
+				4B0FF3FC22C04D6E00AE9C8B /* baseline_web_black_18dp.png */,
+				4B103AB8229AFBC7006B9BF1 /* facebook_logo.png */,
+				4B103AB6229AFBB9006B9BF1 /* instagram_logo.png */,
+				4B158C0F2299D0C700378054 /* eduky_logo.png */,
+			);
+			name = Imagen;
+			sourceTree = "<group>";
+		};
+		FC7E3EA66C05008E3EA59059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBDDD921919EFEFA5FA914C /* Pods_Eduky.framework */,
+				5F900A32F6B2305C3B82D219 /* Pods_EdukyTests.framework */,
+				FA8AC1936C2D81ED7C91EE5E /* Pods_EdukyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B158BD82299C87800378054 /* Eduky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B158C042299C87900378054 /* Build configuration list for PBXNativeTarget "Eduky" */;
+			buildPhases = (
+				32A1EC1527DCE52135AAB4F2 /* [CP] Check Pods Manifest.lock */,
+				4B158BD52299C87800378054 /* Sources */,
+				4B158BD62299C87800378054 /* Frameworks */,
+				4B158BD72299C87800378054 /* Resources */,
+				CE8754E87DA00E1B027EAE21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eduky;
+			productName = Eduky;
+			productReference = 4B158BD92299C87900378054 /* Eduky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B158BEF2299C87900378054 /* EdukyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B158C072299C87900378054 /* Build configuration list for PBXNativeTarget "EdukyTests" */;
+			buildPhases = (
+				90610D915B5353B88FD020E7 /* [CP] Check Pods Manifest.lock */,
+				4B158BEC2299C87900378054 /* Sources */,
+				4B158BED2299C87900378054 /* Frameworks */,
+				4B158BEE2299C87900378054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B158BF22299C87900378054 /* PBXTargetDependency */,
+			);
+			name = EdukyTests;
+			productName = EdukyTests;
+			productReference = 4B158BF02299C87900378054 /* EdukyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B158BFA2299C87900378054 /* EdukyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B158C0A2299C87900378054 /* Build configuration list for PBXNativeTarget "EdukyUITests" */;
+			buildPhases = (
+				6F758298F587001BC636499B /* [CP] Check Pods Manifest.lock */,
+				4B158BF72299C87900378054 /* Sources */,
+				4B158BF82299C87900378054 /* Frameworks */,
+				4B158BF92299C87900378054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B158BFD2299C87900378054 /* PBXTargetDependency */,
+			);
+			name = EdukyUITests;
+			productName = EdukyUITests;
+			productReference = 4B158BFB2299C87900378054 /* EdukyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B158BD12299C87800378054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Juan Pablo Enriquez ";
+				TargetAttributes = {
+					4B158BD82299C87800378054 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4B158BEF2299C87900378054 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B158BD82299C87800378054;
+					};
+					4B158BFA2299C87900378054 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B158BD82299C87800378054;
+					};
+				};
+			};
+			buildConfigurationList = 4B158BD42299C87800378054 /* Build configuration list for PBXProject "Eduky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B158BD02299C87800378054;
+			productRefGroup = 4B158BDA2299C87900378054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B158BD82299C87800378054 /* Eduky */,
+				4B158BEF2299C87900378054 /* EdukyTests */,
+				4B158BFA2299C87900378054 /* EdukyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B158BD72299C87800378054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B158BEA2299C87900378054 /* LaunchScreen.storyboard in Resources */,
+				4B0F69CD22C98BEF002C11E4 /* baseline_location_on_white_18dp.png in Resources */,
+				4B0BC24B22E4375F0064297A /* outline_headset_black_18dp.png in Resources */,
+				4B0BC24A22E4375F0064297A /* twotone_headset_black_18dp.png in Resources */,
+				4B158C0E2299C9E300378054 /* GoogleService-Info.plist in Resources */,
+				4B0F69C522C97DD5002C11E4 /* baseline_view_headline_black_18dp.png in Resources */,
+				4B0BC24622E4375F0064297A /* outline_book_black_18dp.png in Resources */,
+				4B0FF3FB22C04D6000AE9C8B /* baseline_room_black_18dp.png in Resources */,
+				4B0BC24C22E4375F0064297A /* outline_cast_connected_black_18dp.png in Resources */,
+				4B158C102299D0C700378054 /* eduky_logo.png in Resources */,
+				4B103AB7229AFBB9006B9BF1 /* instagram_logo.png in Resources */,
+				4B0F69C722C97DEC002C11E4 /* baseline_import_contacts_black_18dp.png in Resources */,
+				4B0BC24922E4375F0064297A /* outline_video_library_black_18dp.png in Resources */,
+				4B103AB9229AFBC7006B9BF1 /* facebook_logo.png in Resources */,
+				4B0F69C922C98BDC002C11E4 /* baseline_email_white_18dp.png in Resources */,
+				4B0FF3FD22C04D6E00AE9C8B /* baseline_web_black_18dp.png in Resources */,
+				4B158BE72299C87900378054 /* Assets.xcassets in Resources */,
+				4B0F69C322C97DB4002C11E4 /* baseline_work_black_18dp.png in Resources */,
+				4B0BC24722E4375F0064297A /* twotone_book_black_18dp.png in Resources */,
+				4B158BE22299C87900378054 /* Main.storyboard in Resources */,
+				4B0F69CB22C98BE5002C11E4 /* baseline_phone_white_18dp.png in Resources */,
+				4B0FF3F922C04D4600AE9C8B /* baseline_card_travel_black_18dp.png in Resources */,
+				4B0BC24822E4375F0064297A /* twotone_video_library_black_18dp.png in Resources */,
+				4B0BC24D22E4375F0064297A /* outline_cast_for_education_black_18dp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BEE2299C87900378054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BF92299C87900378054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A1EC1527DCE52135AAB4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eduky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F758298F587001BC636499B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdukyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90610D915B5353B88FD020E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdukyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8754E87DA00E1B027EAE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eduky/Pods-Eduky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eduky/Pods-Eduky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B158BD52299C87800378054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0BC23D22E4308C0064297A /* TabBarViewController.swift in Sources */,
+				4B158BE52299C87900378054 /* Eduky.xcdatamodeld in Sources */,
+				4B0E1C4A22B5E1BE00B7994D /* Educador.swift in Sources */,
+				4B0D91B522DBFA1000A035BC /* Ebook.swift in Sources */,
+				4B6809FE22DAE980008337BF /* AudioLibro.swift in Sources */,
+				4B0D91B122DBF93300A035BC /* ViewControllerEbook.swift in Sources */,
+				4B0C3A0522BF0DBD00FBC7E6 /* ViewControllerTableViewCell.swift in Sources */,
+				4B0D728522D2AC42005AB934 /* TableViewControllerVideos.swift in Sources */,
+				4B0D728722D2AE2F005AB934 /* Video.swift in Sources */,
+				4B158BDF2299C87900378054 /* ViewController.swift in Sources */,
+				4B158BDD2299C87900378054 /* AppDelegate.swift in Sources */,
+				4B6809FC22DAE7C3008337BF /* TableViewControllerAudioLibro.swift in Sources */,
+				4B0F69D122C992E4002C11E4 /* ViewControllerPerfilEducador.swift in Sources */,
+				4B0BC22F22E39F660064297A /* ViewControllerPdf.swift in Sources */,
+				4BD963D022A34C880031DCFB /* TableViewController.swift in Sources */,
+				4B0D91AD22DBF35A00A035BC /* CollectionViewCellEbook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BEC2299C87900378054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B158BF52299C87900378054 /* EdukyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B158BF72299C87900378054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B158C002299C87900378054 /* EdukyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B158BF22299C87900378054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B158BD82299C87800378054 /* Eduky */;
+			targetProxy = 4B158BF12299C87900378054 /* PBXContainerItemProxy */;
+		};
+		4B158BFD2299C87900378054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B158BD82299C87800378054 /* Eduky */;
+			targetProxy = 4B158BFC2299C87900378054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B158BE02299C87900378054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B158BE12299C87900378054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B158BE82299C87900378054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B158BE92299C87900378054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B158C022299C87900378054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B158C032299C87900378054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B158C052299C87900378054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432265DFA96F980A14899AAE /* Pods-Eduky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eduky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.Eduky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B158C062299C87900378054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395ED024D5F489488B2EE707 /* Pods-Eduky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eduky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.Eduky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B158C082299C87900378054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210F480F0ECE190535365DA6 /* Pods-EdukyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdukyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.EdukyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eduky.app/Eduky";
+			};
+			name = Debug;
+		};
+		4B158C092299C87900378054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A09000943D7E9EAF7F2070 /* Pods-EdukyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdukyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.EdukyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eduky.app/Eduky";
+			};
+			name = Release;
+		};
+		4B158C0B2299C87900378054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C8EF5B6DEED57D5B80DD0F /* Pods-EdukyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EdukyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.EdukyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Eduky;
+			};
+			name = Debug;
+		};
+		4B158C0C2299C87900378054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51707D0F9B44E61400D5FB2A /* Pods-EdukyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EdukyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juanpabloapp.EdukyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Eduky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B158BD42299C87800378054 /* Build configuration list for PBXProject "Eduky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B158C022299C87900378054 /* Debug */,
+				4B158C032299C87900378054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B158C042299C87900378054 /* Build configuration list for PBXNativeTarget "Eduky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B158C052299C87900378054 /* Debug */,
+				4B158C062299C87900378054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B158C072299C87900378054 /* Build configuration list for PBXNativeTarget "EdukyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B158C082299C87900378054 /* Debug */,
+				4B158C092299C87900378054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B158C0A2299C87900378054 /* Build configuration list for PBXNativeTarget "EdukyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B158C0B2299C87900378054 /* Debug */,
+				4B158C0C2299C87900378054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B158BE32299C87900378054 /* Eduky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B158BE42299C87900378054 /* Eduky.xcdatamodel */,
+			);
+			currentVersion = 4B158BE42299C87900378054 /* Eduky.xcdatamodel */;
+			path = Eduky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B158BD12299C87800378054 /* Project object */;
+}
